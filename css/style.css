@@ -1,0 +1,49 @@
+
+/* Common Css Start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+/* Common Css End */
+
+nav {
+    background-color: #02918c;
+}
+
+nav ul {
+    list-style-type: none;
+}
+nav ul li a {
+    display: inline-block;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 26px 25.5px;
+    font-family: "Open Sans";  
+    font-weight: 800;
+   
+}
+nav ul li a:hover {
+    color: #cfc91d;
+    transition: 0.5s;
+}
